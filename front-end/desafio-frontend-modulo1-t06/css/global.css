@@ -1,0 +1,42 @@
+header{    vertical-align: middle;
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+header div img{
+    padding-right: 700px;
+}
+header div a{
+    padding-right: 50px;
+    text-decoration: none;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    cursor:pointer; 
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    color: #5FB4A2;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background:#203A4C ;
+    border-radius: 5px;
+}body{
+    overflow-x: hidden; 
+}
