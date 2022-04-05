@@ -1,6 +1,10 @@
-# Desafio1-parteObrigatoria
+# Desafio parte obrigatoria
 
-RESULTADO FRONT END:
+## nesse repositorio mostro a parte obrigatoria do desafio, foi entregue dia 4 de abriu.
+## em breve criarei um com o conteúdo completo ^-^
+ 
+
+### RESULTADO FRONT END:
 
 <img height="300px" src="https://user-images.githubusercontent.com/74678483/161665502-98f1bb5e-f145-4a31-96f6-465127b7d942.jpg" alt="">
 
