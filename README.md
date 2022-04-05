@@ -1,7 +1,7 @@
 # Desafio parte obrigatoria
 
-## nesse repositorio mostro a parte obrigatoria do desafio, foi entregue dia 4 de abriu.
-## em breve criarei um com o conteúdo completo ^-^
+nesse repositorio mostro a parte obrigatoria do desafio, foi entregue dia 4 de abriu. <br>
+em breve criarei um com o conteúdo completo ^-^
  
 
 ### RESULTADO FRONT END:
