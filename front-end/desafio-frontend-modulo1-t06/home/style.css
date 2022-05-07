@@ -91,7 +91,6 @@ a:hover {
 
 }
 .texto p{
-
     font-family: 'Public Sans';
     font-style: normal;
     font-weight: 400;
@@ -191,40 +190,4 @@ div .linhaa{
     padding: 15px 50px;
 }.ContatoSection .btnn a:hover {
     color: #5FB4A2;
-}
-
-/* footer */
-footer{
-    background-color: #33323D;
-    width:110vw;
-    margin-left: -40px;
-    display: flex;
-    align-items: center;
-}
-footer img{
-    padding: 20px 0px;
-    padding-left: 80px;
-    padding-right: 50px;
-}
-
-.txtfooter{
-    align-items: center;
-    color: white;
-    font-family: 'Public Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    padding-right: 50px;
-}
-#piu {
-    padding-left: 400px;
-}
-.imgfooter{
-    position:relative;
-    left:20px;   
-    padding: 0px;
-    padding-left: 20px;
 }

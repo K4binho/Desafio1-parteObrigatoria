@@ -1,4 +1,6 @@
-header{    vertical-align: middle;
+/* header */
+header{ 
+    vertical-align: middle;
     display: flex;
     width: 100vw;
     justify-content: space-around;
@@ -11,7 +13,7 @@ header div img{
 header div a{
     padding-right: 50px;
     text-decoration: none;
-    font-family: 'Public Sans';
+    font-family: 'Public Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -39,4 +41,40 @@ a:hover {
     border-radius: 5px;
 }body{
     overflow-x: hidden; 
+}
+
+/* footer */
+footer{
+    background-color: #33323D;
+    width:110vw;
+    margin-left: -40px;
+    display: flex;
+    align-items: center;
+}
+footer img{
+    padding: 20px 0px;
+    padding-left: 80px;
+    padding-right: 50px;
+}
+
+.txtfooter{
+    align-items: center;
+    color: white;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-right: 50px;
+}
+#divImgFooter {
+    padding-left: 400px;
+}
+.imgfooter{
+    position:relative;
+    left:20px;   
+    padding: 0px;
+    padding-left: 20px;
 }
