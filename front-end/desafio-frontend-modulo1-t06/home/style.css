@@ -1,20 +1,30 @@
-
+body{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Public Sans', sans-serif;
+}
+img{
+    max-width: 90vw;
+    max-height: 100vh;
+}
 /* Hero Section */
-.homepage-hero ,.homepage-hero-box {
+.homepage-hero ,.homepage-hero-box,.homepage-profile {
     margin-left: 40px;
 }
 .homepage-hero  img{
-    height: 100%;
-    width: 90vw;
+    max-width: 90vw;
+    max-height: 100vh;
     object-fit: cover;    
 }
 .homepage-hero-box {
     background-color: rgb(255, 255, 255);
-    width: 32.1%;
-    height: 272px;
-    position:relative;
-    top:-386px;
     padding: 10px 30px 100px 30px;
+    position:relative;
+    width: 32.1%;
+    top:-386px;
 }
 .box{
     font-family: 'Ibarra Real Nova';
@@ -22,12 +32,8 @@
     font-weight: 700;
     font-size: 30px;
     line-height: 50px;
-    /* or 100% */
-    
-    letter-spacing: -0.446429px;
-    
+
     color: #33323D;
-    margin-bottom: 70px;
 
 }
 .btn-box{
@@ -35,9 +41,8 @@
     width: 200px;
     height: 48px; 
     cursor:pointer;    
-    position:relative;
-    top:-36px;
-    left: -30px; 
+    position:absolute;
+     
 }
 .btn-box img{
     padding: 18px 16px;
@@ -47,7 +52,6 @@
 }
 .btn-box a {
     background-color: #203A4C;
-    font-family: 'Public Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -70,13 +74,11 @@ a:hover {
     width: 90vw;
     position:relative;
     top:-280px;
-    padding-left: 40px;
 }
 .homepage-profile img{
     width: 43vw;
 }
 .texto h1{
-
     font-family: 'Ibarra Real Nova';
     font-style: normal;
     font-weight: 700;
@@ -91,7 +93,6 @@ a:hover {
 
 }
 .texto p{
-    font-family: 'Public Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -107,7 +108,7 @@ a:hover {
 }
 
 .btnn{
-    font-family: 'Public Sans';
+
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -178,7 +179,6 @@ div .linhaa{
     margin-right:400px;
     
 }.ContatoSection .btnn a{
-    font-family: 'Public Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
