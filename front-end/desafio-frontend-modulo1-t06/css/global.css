@@ -26,10 +26,7 @@ header div a{
 a{
     text-decoration: none;
 }
-a:hover {
-    color: #5FB4A2;
-}
-a:focus{
+a:hover,a:focus {
     color: #5FB4A2;
 }
 ::-webkit-scrollbar{
@@ -80,4 +77,10 @@ footer img{
     left:20px;   
     padding: 0px;
     padding-left: 20px;
+}
+.btnn a:focus{
+    color: #5FB4A2;
+}
+.txtfooter a:focus{
+    color: #5FB4A2;
 }
