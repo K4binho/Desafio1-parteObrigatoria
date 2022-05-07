@@ -22,139 +22,94 @@ img{
 .homepage-hero-box {
     background-color: rgb(255, 255, 255);
     padding: 10px 30px 100px 30px;
-    position:relative;
+    position:absolute;
     width: 32.1%;
-    top:-386px;
+    top: 385px;
 }
 .box{
-    font-family: 'Ibarra Real Nova';
+    font-family: 'Ibarra Real Nova', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 50px;
-
     color: #33323D;
-
 }
 .btn-box{
     display: flex; 
     width: 200px;
     height: 48px; 
     cursor:pointer;    
-    position:absolute;
-     
 }
 .btn-box img{
     padding: 18px 16px;
     background: #192c3a;
-    mix-blend-mode: normal;
-
 }
 .btn-box a {
     background-color: #203A4C;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;  
     color: #FFFFFF;
-    margin: auto;
+    font-size: 12px;
     padding: 17px 34px;
-
 }
-a:hover {
+a:hover{
     color: #5FB4A2;
 }
 
 /* Contato Section */
 .homepage-profile{
-    display: flex;
-    width: 90vw;
     position:relative;
-    top:-280px;
-}
-.homepage-profile img{
-    width: 43vw;
+    display: flex;  
+    top:120px;  
+    margin-bottom: 200px;
 }
 .texto h1{
-    font-family: 'Ibarra Real Nova';
-    font-style: normal;
+    font-family: 'Ibarra Real Nova', sans-serif;
+    position:relative;
     font-weight: 700;
     font-size: 40px;
-    line-height: 42px;
-    letter-spacing: -0.357143px;
     color: #33323D;
     padding-left: 140px;
     padding-top: 25px;
-    position:relative;
     top:-36px;
-
 }
 .texto p{
-    font-style: normal;
+    position:relative;
+    color: #33323D;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    color: #33323D;
-    mix-blend-mode: normal;
-    opacity: 0.8;
     padding-left: 140px;
-    padding-top: 25px;
-    position:relative;
     top:-40px;
-
 }
-
 .btnn{
-
-    font-style: normal;
+    position:relative;
+    text-align: center;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #33323D;
-    text-align: center;
     padding-top: 30px;
     margin-left: 90px;
-    position:relative;
     top:-40px;
- 
 }
 .btnn a{
+    box-sizing: border-box;    
     padding: 20px 30px;
     border: 1px solid #33323D;
-    box-sizing: border-box;    
 }
-div .linha{
-    margin-left: 134px;
-    width: 490px;
-    height: 0.1px;
+.linhaCima{
     border: 0.1px solid #979797;
-    position:relative;
+    position:absolute;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 490px;
     top:-30px;  
-    margin-top: 30px;
-    margin-left: 134px;
-    width: 490px;
-    height: 0.1px;
-    border: 0.1px solid #979797;
-    
 }
-div .linhaa{
-    margin-left: 45px;
-    width: 490px;
-    height: 0.1px;
+.linhaBaixo{
     border: 0.1px solid #979797;
-    position:relative;
-    margin-top: 30px;
-    width: 490px;
-    height: 0.1px;
-    border: 0.1px solid #979797;
-    
-    position:relative;
-    top:1px;      
+    position:absolute;
+    margin-left: 50px;
+    margin-top: 86px;
+    width: 490px;      
 }
 
 /* Contato Section */
@@ -165,11 +120,10 @@ div .linhaa{
     margin-bottom: 100px;
     width: 1110px;
     height: 80px;
-    position:relative;
-    top:-100px;   
+ 
 }
 .ContatoSection h1{
-    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Ibarra Real Nova', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -189,5 +143,11 @@ div .linhaa{
     text-decoration: none;
     padding: 15px 50px;
 }.ContatoSection .btnn a:hover {
+    color: #5FB4A2;
+}
+.btnn a:focus{
+    color: #5FB4A2;
+}
+.txtfooter a:focus{
     color: #5FB4A2;
 }

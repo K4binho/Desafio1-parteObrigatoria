@@ -29,6 +29,9 @@ a{
 a:hover {
     color: #5FB4A2;
 }
+a:focus{
+    color: #5FB4A2;
+}
 ::-webkit-scrollbar{
     width: 10px;
 }
