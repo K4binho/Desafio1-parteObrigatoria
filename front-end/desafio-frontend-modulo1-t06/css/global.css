@@ -69,14 +69,16 @@ footer img{
     text-transform: uppercase;
     padding-right: 50px;
 }
+
 #divImgFooter {
-    padding-left: 400px;
+    position: absolute;
+    left: 1100px;
+    width: 200px;
+    padding: 0;
 }
 .imgfooter{
-    position:relative;
-    left:20px;   
     padding: 0px;
-    padding-left: 20px;
+    margin-left: 10px;
 }
 .btnn a:focus{
     color: #5FB4A2;
